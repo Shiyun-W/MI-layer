@@ -11,7 +11,7 @@
 	<script src="js\\buildmatrix.js"></script>
     <script>
 
-	queue()
+    d3.queue()
         .defer(d3.csv, "data\\CSV\\basiclayer\\nodes.csv")
         .defer(d3.csv, "data\\CSV\\basiclayer\\csvdata.csv")
         .defer(d3.csv, "data\\CSV\\middlelayer\\nodes.csv")
